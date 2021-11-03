@@ -1,0 +1,20 @@
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+  }
+
+#receipt {
+  display: none;
+}
+
+body {
+  background-image: url(/Users/ebrurice/Desktop/marketplace/img/landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1500px;
+  opacity: 0.9;
+}
+
+#user {
+  color: aliceblue;
+}

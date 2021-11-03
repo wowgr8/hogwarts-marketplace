@@ -15,7 +15,7 @@
     <a href="feedback.html">Feedback</a>
     <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src="img/nimbus200.jpeg" alt="nimbus">
+        <img class="card-img-top img-fluid" src="img/nimbus200.jpeg" alt="nimbus">
         <div class="card-body">
           <h5 class="card-title">Nimbus 2000</h5>
           <p class="card-text">Don't miss out on the new and improved Nimbus 2000!</p>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="img/frog.jpeg" alt="Chocolate Frog">
+        <img class="card-img-top img-fluid" src="img/frog.jpeg" alt="Chocolate Frog">
         <div class="card-body">
           <h5 class="card-title">Chocolate Frog</h5>
           <p class="card-text"></p>
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="img/wand1.jpg" alt="Wand">
+        <img class="card-img-top img-fluid" src="img/wand1.jpg" alt="Wand">
         <div class="card-body">
           <h5 class="card-title">Wand</h5>
           <p class="card-text"></p>
@@ -39,6 +39,7 @@
         </div>
       </div>
     </div>
+    
     <form id="user">
       <div class="form-group">
         <label for="first">First Name</label>
@@ -48,7 +49,26 @@
         <label for="last">Last Name</label>
         <input id="last" class="form-control" type="text">
       </div>
+      <div class="form-group">
+        <label for="addr">Address</label>
+        <input id="addr" class="form-control" type="text">
+      </div>
+      <button type="sumbit" class="btn btn-primary">Send my info</button>
     </form>
+    
+    <div id="receipt">
+      <div class="card my-4">
+        <div class="card-body">
+          <h1 class="card-title">Receipt</h1>
+          <p class="card-text">
+            First: <span class="first-span"></span><br>
+            Last: <span class="last-span"></span><br>
+            Address: <span class="addr-span"></span>
+          </p>
+        </div>
+      </div>
+    </div> 
+
   </div>
 </body>
 </html>
